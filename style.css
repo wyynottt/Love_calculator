@@ -1,0 +1,105 @@
+@import url('https://fonts.cdnfonts.com/css/equivalent');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+
+}
+.wrap{
+      background-image: url("rose.jpg");
+    height :100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  align-content: center;
+  
+flex-wrap:wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#content-box {
+    width: 400px;
+    height: 500px;
+    background-color: transparent;
+    padding: 20px;
+    margin: 20px;
+    
+    border-radius:5px 100px 5px;
+   
+backdrop-filter: blur(5px);
+box-shadow: 1px 1px 50px pink;
+             
+             
+
+}
+
+#calculate {
+    width: 150px;
+    height: 50px;
+
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    outline :none;
+    box-shadow: 1px 1px 50px pink;
+    border-radius: 10px;
+}
+
+#result-percentage {
+    font-size: 50px;
+    color: white;
+   text-shadow: 2px 2px 7px #2302f7 ; 
+   font-family: 'Equivalent', sans-serif;
+}
+h1{
+  color: whitesmoke;
+  text-shadow:2px 2px 7px deeppink;
+    font-family: 'Equivalent', sans-serif;
+}
+p{
+  color: white;
+  font-family: 'Equivalent', sans-serif;
+  font-weight: medium;
+}
+label{
+ color: white ;
+ font-weight: bold;
+ margin-right: 10px;
+ font-weight: bold;
+}
+input{
+  outline:none;
+  border-radius: 10px;
+  border-bottom:1px solid pink;
+  border-top: transparent ;
+  background: transparent;
+  border-left: transparent;
+  border-right: transparent ;
+  color: white;
+  padding-left: 10px;
+  font-weight:600;
+  
+}
+
+#calculate:hover{
+cursor: pointer;
+}
+#calculate:active{
+  background-color: deeppink;
+  color: white ;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+h2{
+  color:white;
+}
+#para{
+ font-size: 10px;
+ font-family: sans-serif;
+color:rgba(255,255,255,.5);
+ 
+}
